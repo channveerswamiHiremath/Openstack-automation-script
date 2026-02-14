@@ -11,7 +11,7 @@ OS_USERNAME = os.getenv("OS name")
 OS_PASSWORD = os.getenv("OS  password")
 OS_PROJECT_NAME = os.getenv("OS  project name")
 CONTAINER_NAME = "my_first_container"
-WATCH_FOLDER = r"C:\Users\Channveerswami H\OneDrive\Desktop\Cloud_Upload"
+WATCH_FOLDER = r"C:\Users\Ch**** H\OneDrive\Desktop\Cloud_Upload"
 SENT_FOLDER = os.path.join(WATCH_FOLDER, "Sent")
 CHECK_INTERVAL = 240 
 
@@ -67,3 +67,4 @@ if __name__ == "__main__":
     while True:
         process_pending_files()
         time.sleep(CHECK_INTERVAL)
+
